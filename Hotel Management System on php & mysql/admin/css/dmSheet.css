@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginDiv{
+    width:75%;
+    height:580px;
+    margin-top:70px;
+    margin-left:180px;
+    margin-right:70px;
+    margin-bottom: 70px;
+    border:4px solid white;
+    border-radius:.55rem;
+}
+
+.leftDiv{
+    width:30%;
+    margin-left:150px;
+    margin-top:150px;
+    float:left;
+}
+
+.rightDiv{
+    margin-left:50px;
+    width:50%;
+    margin-top:150px;
+    float:right;
+}
+
+#adminHead{
+    font-size:40px;
+    margin-left:20px;   
+    margin-bottom: 30px;
+    font-family:Arial;
+    color:#E72121;
+    text-shadow: 3px 3px 3px #ADC3A3;
+}
+
+.inputAll{
+    width: 50%;
+    margin-top:10px;
+    display: block;
+    height: 24px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color:#E2FFD4;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: .99rem;
+}
+
+.mainButton{
+    width: 35%;
+    height:40px;
+    margin-left:50px;
+    margin-top:10px;
+    font-size: 16px;
+    color:white;
+    background: #3BCE67;
+    background: -moz-linear-gradient(top, #3BCE67 0%, #36A44A 50%, #74C515 100%);
+    background: -webkit-linear-gradient(top, #3BCE67 0%, #36A44A 50%, #74C515 100%);
+    background: linear-gradient(to bottom, #3BCE67 0%, #36A44A 50%, #74C515 100%);
+    border: 1px solid green;
+    border-radius: .99rem;
+}
+
+.mainButton:hover{
+    color:white;
+    background: #B86258;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #B86258 0%, #7D6E19 50%, #577B32 100%);
+    background: -webkit-linear-gradient(top, #B86258 0%, #7D6E19 50%, #577B32 100%);
+    background: linear-gradient(to bottom, #B86258 0%, #7D6E19 50%, #577B32 100%);
+    border: 1px solid #B86258;
+    border-radius: .99rem;
+}
+
+#backHead{
+    font-size:20px; 
+    margin-bottom: 30px;
+    font-family:Arial;
+    color:#F5F6C3;
+    text-shadow: 3px 3px 3px #889494;
+}
+
+#backHead:hover{
+    font-size:20px; 
+    font-family:Arial;
+    color:#CADA52;
+    text-shadow: 3px 3px 3px grey;
+}

@@ -1,0 +1,716 @@
+* {
+    margin: 0;
+}
+.leftDiv{
+    float:left;
+}
+
+
+.mainDiv{
+    width:100%;
+    overflow: hidden;
+    background: -moz-linear-gradient(top, #F1F0EB 0%, #FFFFFF 50%, #F8FFFF 100%);
+    background: -webkit-linear-gradient(top, #F1F0EB 0%, #FFFFFF 50%, #F8FFFF 100%);
+    background: linear-gradient(to bottom, #F1F0EB 0%, #FFFFFF 50%, #F8FFFF 100%);
+}
+
+#mainHead{
+    color:blue;
+    text-shadow:3px 3px 3px grey;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 42px;
+    margin-top:5px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.headIcon{
+    margin-top:15px;
+    margin-right: 150px;   
+    float:right;
+    text-shadow: 3px 3px 3px grey;
+}
+
+#iconImp{
+    margin-left:5px;
+    border:1px solid white;
+    border-radius:.45rem;
+    box-shadow: 3px 3px 3px grey;
+    cursor: pointer;
+}
+
+.navBarDiv{
+    border: 1px solid #ccc;
+    background-color: #25B1B9;
+    width: 100%;
+    margin-top:100px;
+}
+.navDiv{  
+    margin-left:320px;
+    overflow: hidden;
+}
+
+.navDiv button {
+    font-family:sofia;
+    font-size:20px;
+    margin-left:20px;
+    background-color: inherit;
+    font-style:italic;
+    color:white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 19px;
+}
+
+.navDiv button:hover {
+    color:yellowgreen;
+    transition: 1s;
+    background-color: #353E5F;
+}
+
+.navDiv button.active {
+    background-color: #ccc;
+}
+
+* {box-sizing:border-box}
+
+.centerDiv{
+    margin-top:10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width:100%;
+  height: 560px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  position: absolute;
+  bottom:100px;
+  width: 100%;  
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#slideHead{
+  color:blue;
+  text-shadow:3px 3px 3px white;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 130px;
+}
+
+#slideText{
+  color:yellow;
+  font-family:Dosis;
+  text-shadow:3px 3px 3px black;
+  font-size:40px;
+}
+
+#slideText02{
+  color:yellow;
+  font-family:Dosis;
+  text-shadow:3px 3px 3px black;
+  font-size:30px;
+}
+
+.roomDiv{
+  width:42%;
+  margin-top:30px;
+  float:left;
+  position: relative;
+}
+
+#roomHead{
+  margin-left:100px;
+  font-style:normal;
+  font-size:100px;
+  text-shadow: 2px 2px 2px whitesmoke;
+  font-family:Dosis;
+  color:#E3E3E7;
+  visibility: visible;
+}
+
+.textRoom{
+    color: #4160BD;
+    font-family:Dosis;
+    text-shadow: 2px 2px 2px black;
+    font-size: 35px;
+    bottom:35px;
+    position: absolute;
+    margin-left:77px;
+}
+
+#comId{
+  margin-left:80px;
+}
+
+.roomMainDiv{
+  width:100%;
+  height:750px;
+}
+
+.barDiv{
+  width:50%;
+  margin-top:30px;
+  margin-right:120px;
+  float:right;
+  height:130px;
+}
+
+#heightIssue{
+  margin-top:70px;
+  border:0.5px solid grey;
+}
+
+.ButtonClass{
+  background-color:white;
+  margin-top:40px;
+  margin-left: 140px;
+  float: left;
+  width:280px;
+  transition:0.3s;
+}
+
+.ButtonClass02{
+  background-color:white;
+  margin-left: 40px;
+  margin-top:40px;
+  float: left;
+  width:280px;
+  transition: 0.3s;
+}
+
+.ButtonClass02:hover {
+  opacity: 0.7;
+}
+
+.ButtonClass02 img {
+  width: 100%;
+}
+
+
+.ButtonClass:hover {
+  opacity:0.7;
+}
+
+.ButtonClass img {
+  width: 100%;
+}
+
+.desc{
+  height:60px;
+  padding: 15px;
+  text-align: center;
+}
+
+.bookButton{
+  margin-left: 30px;
+  width:140px;
+  height:50px;
+  text-shadow: 2.5px 5px 5px grey;
+  color:white;
+  font-size:15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.buttonStyle{
+  width: 130px;
+  height:40px;
+  background: #CE5937;
+  background: -moz-linear-gradient(-45deg, #CE5937 0%, #DBE60B 50%, #C59237 100%);
+  background: -webkit-linear-gradient(-45deg, #CE5937 0%, #DBE60B 50%, #C59237 100%);
+  background: linear-gradient(135deg, #CE5937 0%, #DBE60B 50%, #C59237 100%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+  border:2px solid;
+  text-shadow: 2.5px 5px 5px grey;
+  cursor: pointer;
+  border-radius:.65rem;
+}
+
+.buttonStyle:hover{
+  background: #CE5937;
+  background: -moz-linear-gradient(left, #CE5937 0%, #E61B69 50%, #C59237 100%);
+  background: -webkit-linear-gradient(left, #CE5937 0%, #E61B69 50%, #C59237 100%);
+  background: linear-gradient(to right, #CE5937 0%, #E61B69 50%, #C59237 100%);
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.buttonSide{
+  width:25%;
+  height:700px;
+  background-color: #13325D;
+}
+
+.ButtonStyle02{
+  width:100%;
+  height:50px;
+  color:white;
+  font-family:Arial;
+  font-size:16px;
+  text-align:left;
+  border:2px solid black;
+  border-radius:.35rem;
+  background-color: #13325D;
+}
+
+#room01{
+  color:#2C2C3D;
+  text-shadow: 3px 3px 3px #C1C1FB;
+  font-family:sofia;
+  font-style:italic;
+  font-size:23px;
+}
+
+#room02{
+  color:grey;
+  font-style:italic;
+  font-family:sofia;
+}
+
+#leftPrice{
+  float:left;
+  font-size:20px;
+  color:#CACA39;
+  font-family:Dosis;
+  margin-left:75px;
+}
+
+#rightRate{
+  float:right;
+  margin-top:2px;
+  font-size:18px;
+  color: grey;
+  font-family:Dosis;
+  margin-right:76px;
+}
+
+
+.offerDiv{
+  width:100%;
+  height:700px;
+  background-color:#F5F5F5;
+}
+
+#comId02{
+  margin-left:150px;
+}
+
+.offerRoomDiv{
+  width:41%;
+  margin-top:30px;
+  float:left;
+  position: relative;
+}
+
+.offerTextRoom{
+  color: #4160BD;
+  font-family:Dosis;
+  text-shadow: 2px 2px 2px black;
+  font-size: 35px;
+  bottom:35px;
+  position: absolute;
+  margin-left:77px;
+}
+
+.offerHead{
+  width:100%;
+  height:160px;
+}
+
+.styleRoomOfferDiv{
+  width:100%;
+  height:550px;
+}
+
+.whatDiv{
+  width:370px;
+  height:220px;
+  float:left;
+  margin-top:40px;
+  margin-left:170px; 
+  background-color:white;
+  padding:10px;
+}
+
+.whatDiv:hover{
+  transition: 0.6s;
+  box-shadow: 5px 5px 5px #E1E1E1;
+}
+
+.whatOfferDiv{
+  width:350px;
+  height:200px;
+  border:1px solid #E5E5E5; 
+}
+
+.whatOfferDiv:hover{
+  border:1px solid black;
+  transition:0.8s;
+  cursor: pointer; 
+}
+
+.whatDiv02{
+  width:370px;
+  height:220px;
+  float:left;
+  margin-top:40px;
+  margin-left:40px; 
+  background-color:white;
+  padding:10px;
+}
+
+.whatDiv02:hover{
+  transition: 0.8s;
+  box-shadow: 4px 4px 4px #E1E1E1;
+}
+
+.leftOfferDiv{
+  width:20%;
+  height:100%;
+  float:left;
+}
+
+.rightOfferDiv{
+  width:80%;
+  height:100%;
+  float:right;
+}
+
+#iconImportant{
+  margin-top:40px;
+  margin-left:20px;
+  border:1px solid white;
+  cursor: pointer;
+}
+
+#offerHead{
+  margin-top:47px;
+  margin-left:20px;
+  font-size:20px;
+  font-family:Dosis;
+}
+
+#offerHead02{
+  font-size:17px;
+  margin-top: 15px;
+  margin-left:20px;
+  font-family:rale;
+  color: #8F8F8F;
+  margin-right:10px;
+  padding:2px;
+}
+
+#comId03{
+    margin-left:280px;
+}
+
+.galleryDiv{
+  width: 100%;
+  height:1050px;
+}
+
+.offerHeadGallery{
+  width:100%;
+  height:160px;
+}
+
+.galleryMarginDiv{
+  margin-left:170px;
+}
+
+.galleryImgDiv{
+  margin-top:40px;
+  position:relative;
+  width:380px;
+  height:300px;
+  float:left; 
+}
+
+.galleryImgDiv02{
+  margin-top:40px;
+  position:relative;
+  width:380px;
+  height:300px;
+  margin-left:30px;
+  float:left;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #262E4B;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.galleryImgDiv:hover .overlay {
+  height: 100%;
+  opacity:0.7;
+  transition: 0.8s;
+}
+
+.galleryImgDiv02:hover .overlay {
+  height: 100%;
+  opacity:0.7;
+  transition: 0.8s;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 23px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.stepDiv{
+  width:100%;
+  height:700px;
+  background-color:#F5F5F5;
+}
+
+#roomHeadStep{
+  margin-left:80px;
+  font-style:normal;
+  font-size:100px;
+  text-shadow: 2px 2px 2px whitesmoke;
+  font-family:Dosis;
+  color:#E3E3E7;
+  visibility: visible;
+}
+
+#comIdStep{
+  margin-left:300px;
+}
+
+.offerRoomDivStep{
+  width:45%;
+  margin-top:30px;
+  float:left;
+  position: relative;
+}
+
+.offerTextRoomStep{
+  color: #4160BD;
+  font-family:Dosis;
+  text-shadow: 2px 2px 2px black;
+  font-size: 35px;
+  bottom:35px;
+  position: absolute;
+  margin-left:77px;
+}
+
+.barDivStep
+{
+  width:45%;
+  margin-top:30px;
+  margin-right:120px;
+  float:right;
+  height:130px;
+}
+
+.whatDivStep{
+  width:300px;
+  height:220px;
+  float:left;
+  margin-top:40px;
+  margin-left:100px; 
+  background-color: white;
+  padding:5px;
+}
+
+.whatDivStep:hover{
+  box-shadow:4px 4px 4px #D8D8D8;
+}
+
+.whatDiv02Step:hover{
+  box-shadow:4px 4px 4px #D8D8D8;
+}
+.whatDiv02Step{
+  width:300px;
+  height:220px;
+  float:left;
+  margin-top:40px;
+  margin-left:40px;
+  background-color:white; 
+  padding:5px;
+}
+
+.whatOfferDivStep{
+  width:290px;
+  height:210px; 
+  background-color:white;
+}
+
+.upOfferDivStep{
+  width:100%;
+  height:90px;
+}
+
+#iconImportantStep{
+  margin-left:20px;
+  margin-top:20px;  
+  cursor: pointer;
+}
+
+.downOfferDivStep{
+  width:100%;
+  height:70%;
+}
+
+.roomStepDiv{
+  width:100%;
+  height:290px;
+}
+
+#stepHead{
+  color:black;
+  font-size:20px;
+  font-family:Dosis;
+  margin-left:20px;
+}
+
+#stepHeadRight{
+  margin-top:20px;
+  margin-right:20px;
+  font-size:30px;
+  font-family:Arial;
+  color:grey;
+  text-shadow: 2px 2px 2px grey;
+  float:right;
+}
+
+#stepHead02{
+  font-size: 17px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: raleway;
+  color: #8F8F8F;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+.offerStepDiv{
+  width:100%;
+  height:450px;
+  background-color:#F5F5F5;
+}
+
+.teamDiv{
+  width:100%;
+  height:450px;
+}
+
+.teamHead{
+  width:100%;
+  height:160px;
+}
+
+.teamProDiv{
+  width:40%;
+  margin-top:30px;
+  float:left;
+  position: relative;
+}
+
+.textTeam{
+  color: #4160BD;
+  font-family:Dosis;
+  text-shadow: 2px 2px 2px black;
+  font-size: 35px;
+  bottom:35px;
+  position: absolute;
+  margin-left:77px;
+}
+
+.barTeamDiv{
+  width:50%;
+  margin-top:30px;
+  margin-right:120px;
+  float:right;
+  height:130px;
+}

@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+body{ 
+    background: rgb(249,252,242); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(249,252,242,1) 11%, rgba(195,204,181,1) 87%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(249,252,242,1) 11%,rgba(195,204,181,1) 87%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(249,252,242,1) 11%,rgba(195,204,181,1) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf2', endColorstr='#c3ccb5',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonSide{
+    width:17%;
+    height:750px;
+    float:left;
+    background-color: #10284B;
+}
+
+.ButtonStyle02{
+    width:100%;
+    height:50px;
+    color:white;
+    font-family:Arial;
+    font-size:16px;
+    text-align:left;
+    border:2px solid black;
+    border-radius:.35rem;
+    background-color: #13325D;
+}
+
+.ButtonStyle02:hover{
+    color:black;
+    background-color:lightBlue;
+}
+
+.formSide{
+    margin-top: 40px;
+    margin-left:20px;
+    width:80.5%;
+    float:right;
+    height:auto;
+}
+
+#formHead{
+    font-family: "calibri", Garamond, 'Comic Sans MS';
+    font-size: 30px;
+}
+
+.leftForm{
+    margin-top:50px;
+    width:38%;
+    border-top-left-radius: .20rem;
+    border-top-right-radius: .20rem;
+    float:left;
+}
+
+.rightForm{
+    margin-top:50px;
+    margin-right:100px;
+    width:50%;
+    border-top-left-radius: .20rem;
+    border-top-right-radius: .20rem;
+    float:right;
+}
+
+.mainDiv{
+    width:99.5%;
+    display: block;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #428bca;
+    border-bottom-left-radius: .30rem;
+    border-bottom-right-radius: .30rem;
+}
+
+.infoHead{
+    width: 100%;
+    height:40px;
+    color:white;
+    background-color: #428bca;
+    border-top-left-radius: .30rem;
+    border-top-right-radius: .30rem;
+}
+
+#inHead{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding:10px;
+    margin-left:6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textAll{
+    width: 93%;
+    margin-top:5px;
+    margin-left:15px;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dateAll{
+    width: 88.5%;
+    margin-top:5px;
+    margin-left:15px;
+    display: block;
+    height: 25px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#textForm{
+    margin-top:15px;
+    margin-left:15px;
+    color:black;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.inputAll{
+    width: 87%;
+    margin-top:5px;
+    margin-left:15px;
+    display: block;
+    height: 24px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sideDiv{
+    width:99.5%;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: #fff;
+}
+

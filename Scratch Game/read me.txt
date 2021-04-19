@@ -1,0 +1,11 @@
+Game Title: Paddle and brick
+Description:Paddle used to hit the ball for hitting the bricks.
+Group leader:Jawad Shaikh
+Roll No:cs172038
+     Group
+Name :Jawad shaikh
+Roll No:cs172038
+Name :Vishal Kumar 
+Roll No:cs172062
+Class:1A
+Section:1A2

@@ -1,0 +1,177 @@
+body{ 
+    background: rgb(249,252,242); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(249,252,242,1) 11%, rgba(195,204,181,1) 87%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(249,252,242,1) 11%,rgba(195,204,181,1) 87%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(249,252,242,1) 11%,rgba(195,204,181,1) 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf2', endColorstr='#c3ccb5',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headPortion{
+    width: 100%;
+    height: 70px;    
+    background-image: url("../Images/navImage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainHead{
+    margin:26px;
+    float:left;
+    width:30%;
+}
+
+#mainHeading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:21px;
+    text-shadow: 1px 2px 2px #4DA6FF;
+    color: white;
+    margin-left: 120px;
+}
+
+.navOne{
+    margin:26px;
+    width:60%;
+    float:right; 
+    color: white;   
+}
+
+#navChanges{
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+#navChanges:hover{
+    color: orange;   
+    text-shadow: 3px 3px 3px orange;
+}
+
+#dash{
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.roomAndRates{
+    width: auto;
+    height: auto;
+}
+
+#roomHeading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    text-shadow: 2px 4px 4px #4DA6FF;
+    color: #04FFC8;
+    margin-left: 600px;
+}
+.Buttons{
+    margin-left:300px;
+}
+
+.ButtonClass{
+    background-color:white;
+    margin-left: 25px;
+    border: 3px solid grey;
+    border-radius: .45rem;
+    float: left;
+    width: 200px;
+    height:330px;
+}
+  
+.ButtonClass:hover {
+    -webkit-transition: 1s;
+    border: 3px solid black;
+}
+  
+.ButtonClass img {
+    border-radius: .35rem;
+    width: 100%;
+    height: auto;
+}
+  
+.desc{
+    height:40px;
+    padding: 15px;
+    text-align: center;
+}
+
+.price{
+    width:60px;
+    height:45px;
+    color:orange;
+    font-size:22px;
+    text-shadow: 3px 6px 6px orange;
+    float:left;
+}
+
+.room{
+    width:100px;
+    height:45px;
+    border-radius:.35rem;
+    background-color: lightblue;
+    text-shadow: 2.5px 5px 5px blue;
+    color:white;
+    float:right;
+    font-size:15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.bookButton{
+    margin-left: 25px;
+    width:140px;
+    height:50px;
+    text-shadow: 2.5px 5px 5px grey;
+    color:white;
+    font-size:15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.buttonStyle{
+    width: 130px;
+    height:40px;
+    background: #CE5937;
+    background: -moz-linear-gradient(-45deg, #CE5937 0%, #DBE60B 50%, #C59237 100%);
+    background: -webkit-linear-gradient(-45deg, #CE5937 0%, #DBE60B 50%, #C59237 100%);
+    background: linear-gradient(135deg, #CE5937 0%, #DBE60B 50%, #C59237 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    border:2px solid;
+    text-shadow: 2.5px 5px 5px grey;
+    cursor: pointer;
+    border-radius:.65rem;
+}
+
+.buttonStyle:hover{
+    background: #CE5937;
+    background: -moz-linear-gradient(left, #CE5937 0%, #E61B69 50%, #C59237 100%);
+    background: -webkit-linear-gradient(left, #CE5937 0%, #E61B69 50%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #E61B69 50%, #C59237 100%);
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.buttonSide{
+    width:25%;
+    height:700px;
+    background-color: #13325D;
+}
+
+.ButtonStyle02{
+    width:100%;
+    height:50px;
+    color:white;
+    font-family:Arial;
+    font-size:16px;
+    text-align:left;
+    border:2px solid black;
+    border-radius:.35rem;
+    background-color: #13325D;
+}
+
+
